@@ -35,11 +35,11 @@
 %%% оформление заголовков глав, секций 
 \usepackage{titlesec}
 
-\makeatletter
+%\makeatletter
 %    \renewcommand{\l@section}{\@dottedtocline{1}{0.85cm}{0.85cm}}
-    \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
-    \renewcommand{\section}{\@startsection{section}{1}{5.6ex}{-3.5ex plus -1ex minus -.2ex}{2.3ex plus.2ex}{\raggedright\hyphenpenalty=10000\normalfont}}
-\makeatother
+%    \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+%    \renewcommand{\section}{\@startsection{section}{1}{5.6ex}{-3.5ex plus -1ex minus -.2ex}{2.3ex plus.2ex}{\raggedright\hyphenpenalty=10000\normalfont}}
+%\makeatother
 
 % меняем заголовок для команды \chapter и запрещаем переносы слов
 \titleformat{\chapter}[block]{\centering\hyphenpenalty=10000\normalfont\large\MakeUppercase}{ГЛАВА \thechapter. }{0pt}{\large\MakeUppercase}
